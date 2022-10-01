@@ -1,0 +1,195 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/991/379/777/new-york-city-hdr-wallpaper-preview.jpg');
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+header nav .ladoderecho {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .ladoderecho a {
+    margin-right: 10px;
+    color: rgb(1, 0, 0);
+text-decoration: aliceblue;
+
+}
+
+nav .ladoderecho .menu-icon {
+    background-image: url('data:image/;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAHlBMVEX///8AAAD09PTLy8uUlJSPj4/5+fnl5eXNzc3IyMgWJBrXAAABJklEQVR4nO3cQQ6CMBRFUSwtpfvfsAv4qD8EI6nnzF/0MhMpywIAAAAAAAAAcC+j1YQt7Hpm13rYbZmPa+PCwvbIKPHKpHbxm5bUrl1YWE8WrqnderKwKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChRcW7qndfoPCrWQcDL+6i89+AAAAAO/1sX4Wb0YsJbMbBz/y98wuntM4z3mLV4Xz32tTqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoX3K5z/f/z5n8UAAACA/zD/OxXmfy/G/PfaFCpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFDhPIXzn7cYrSbEZyN6ZtfiuYkt83EtXhkAAAAAAAAAgN96AuUrQOqYK1c6AAAAAElFTkSuQmCC');
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25 px;
+    height: 25px;
+    
+}
+
+nav .ladoderecho img{
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+ main .main-logo{
+width: 530px;
+margin: 0 auto;
+margin-bottom: 35px;
+
+}
+
+main .main-logo img{
+    width: 300px;
+
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto ;
+    margin-bottom: 35px;
+    
+
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color:white;
+}
+
+main .main-input-container :hover {
+    box-shadow: 0 1px 6px 0  blue;
+    border-color: blue;
+
+}
+
+main .main-input .busqueda{
+    background-image: url('https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-searh-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://w7.pngwing.com/pngs/611/272/png-transparent-blue-red-and-yellow-google-voice-logo-microphone-google-voice-google-search-google-logo-microphone-angle-electronics-search-engine-optimization.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer; 
+    background-color: transparent;  
+}
+
+main .main-buttons { 
+    width: 530 px;
+    margin: 0 auto;
+}
+
+main .main-buttons div { 
+    display: inline-block;
+}
+
+main .main-buttons button{ 
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0 ;
+    font-size: 16px ;
+    color: #5f6368;
+    border-radius: 5px ;
+    padding: 0  15 px ;
+    margin-right: 15px;
+    
+}
+
+main .main-buttons button:hover { 
+    border: 1px solid #5f6368;
+    box-shadow: 0 1px 1px black;
+    cursor: pointer;
+    color: blue;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13 px;
+    background-color: #f2f2f2;
+    border-top: 1px solid  #e4e4e4;
+
+
+}
+
+footer ul{
+    margin: 10px ;
+    list-style: none;
+    display: flex;
+    padding-left: 0 ; 
+}
+
+footer .footer-left { 
+    justify-self: left;
+
+}
+footer .footer-right { 
+    justify-self: right;
+}
+
+footer ul li a { 
+     margin: 10px;
+     color: #5f6368;
+}
